@@ -19,4 +19,40 @@ body {
     background: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
 }
 
+form.create-note {
+    position: relative;
+    width: 500px;
+    margin: 30px auto 20px auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138,137,137);
+}
+
+form.create-note input, form.create-note textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.6rem;
+    resize: none;
+}
+
+form.create-note button {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: -18px;
+    bottom: -18px;
+    border: none;
+    background-color: midnightblue;
+    font-size: 2.4rem;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
 
