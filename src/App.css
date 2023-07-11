@@ -59,6 +59,14 @@ form.create-note button:hover {
     background-color: #1a1a1a;
 }
 
+.notes__wrapper {
+width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .note {
     background: #fff;
     border-radius: 7px;
@@ -83,7 +91,7 @@ form.create-note button:hover {
     position: relative;
     float: right;
     margin-right: 10px;
-    color: #f5ba13;
+    color: red;
     border: none;
     width: 36px;
     height: 36px;
@@ -100,7 +108,7 @@ footer {
 }
 
 footer p {
-    color: #ccc;
+    color: white;
 }
 
 

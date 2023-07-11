@@ -27,6 +27,7 @@ function deleteNote (id) {
     <div className="App">
       <Header />
         <CreateArea onAdd={addNote}/>
+        <div className="notes__wrapper">
         {notes.map((noteItem, index) => {
             return (
                 <Note
@@ -38,6 +39,7 @@ function deleteNote (id) {
                 />
             )}
         )}
+        </div>
         <Footer />
     </div>
   );
